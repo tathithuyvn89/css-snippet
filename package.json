@@ -1,0 +1,33 @@
+{
+  "name": "css-snippet",
+  "displayName": "css-snippet",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "icon": "logo.gif",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tathithuyvn89/css-snippet"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

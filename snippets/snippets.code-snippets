@@ -1,0 +1,54 @@
+{
+    "flexbox":{
+        "prefix":"flexcenter",
+        "body":[
+            "display:flex;",
+            "align-items:center;",
+            "justify-content:center;"
+        ],
+        "description": "this snippet to help you center a box"
+    },
+}
+
+
+Nếu chúng ta muốn nhiều hơn thì sao ? .
+
+{
+    "flexbox":{
+        "prefix":"flexcenter",
+        "body":[
+            "display:flex;",
+            "align-items:center;",
+            "justify-content:center;"
+        ],
+        "description": "this snippet to help you center a box"
+    },
+    "overflowX":{
+        "prefix":"xauto",
+        "body":[
+            "overflow-x:auto;",
+           
+        ],
+        "description": "this snippet to make overflow-x = auto"
+    },
+    "overflowY":{
+        "prefix":"yauto",
+        "body":[
+            "overflow-y:auto;",
+            
+        ],
+        "description": "this snippet to make overflow-y = auto"
+    },
+    "textoverflow":{
+        "prefix":"text-truncate",
+        "body":[
+            "overflow:hidden;",
+            "text-overflow: ellipsis;",
+            "-webkit-line-clamp: 3;",
+            "display: -webkit-box;",
+            "-webkit-box-orient: vertical;",
+            
+        ],
+        "description": "this snippet to help the text overflow multiple lines with three dots..."
+    },
+}
