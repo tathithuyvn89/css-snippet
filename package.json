@@ -25,6 +25,10 @@
         "path": "./snippets/snippets.code-snippets"
       },
       {
+        "language": "scss",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
         "language": "javascriptreact",
         "path": "./snippets/snippets.code-snippets"
       }

@@ -1,17 +1,4 @@
-{
-    "flexbox":{
-        "prefix":"flexcenter",
-        "body":[
-            "display:flex;",
-            "align-items:center;",
-            "justify-content:center;"
-        ],
-        "description": "this snippet to help you center a box"
-    },
-}
 
-
-Nếu chúng ta muốn nhiều hơn thì sao ? .
 
 {
     "flexbox":{
